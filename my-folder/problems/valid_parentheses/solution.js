@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-let myHashMap = {'(':')', '{':'}', '[':']'};
+    let myHashMap = {'(':')', '{':'}', '[':']'};
     let stack = [];
 //loop tru each xter in the string
     for(let i=0; i<s.length; i++){
