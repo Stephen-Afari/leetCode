@@ -11,8 +11,9 @@ var longestPalindrome = function(s) {
         let newMaxLength = right - left +1;
         if(newMaxLength > maxLength){
             maxLength = newMaxLength;
-            startPt = left;
+             startPt = left;
         }
+       
         left -=1;
         right +=1;
     }
