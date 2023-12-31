@@ -8,7 +8,7 @@ var eraseOverlapIntervals = function(intervals) {
 	
 	let count=0;
 //sort the interval subarrays, by their first elements
-intervals.sort((a,b)=>{return a[0] - b[0]})
+intervals.sort((a,b)=>a[0] - b[0])
 let end = intervals[0][1];
 	
 for (let i=1; i<intervals.length; i++){
