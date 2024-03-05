@@ -3,7 +3,7 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-let windowCharMap = {};
+ let windowCharMap = {};
 let winStart =0;
 let maxLength =0;
 
